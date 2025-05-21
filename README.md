@@ -40,6 +40,8 @@ Follow these steps to set up and run the project locally.
 ```bash
 git clone https://github.com/your-username/invoice-parser-ai.git
 cd invoice-parser-ai'''
+
+
 ### 🧪 2. Create and Activate Virtual Environment
 '''bash
 Copy
