@@ -38,8 +38,8 @@ Follow these steps to set up and run the project locally.
 
 ### 📥 1. Clone the Repository
 
-git clone https://github.com/aayushj9/Talentica_assignment_OCR.git
-cd Talentica_assignment_
+''' git clone https://github.com/aayushj9/Talentica_assignment_OCR.git
+cd Talentica_assignment_OCR '''
 
 ---
 ### 🧪 2. Create and Activate Virtual Environment
