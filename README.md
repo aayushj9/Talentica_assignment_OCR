@@ -55,6 +55,9 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 ### 📦 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 ### 🔐 4. Setup API Keys
 ### ▶️ 5. Run the Flask Application
 ### 🧾 Folder Structure
