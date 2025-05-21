@@ -76,19 +76,17 @@ http://127.0.0.1:5000
 
 ### 🧾 Folder Structure
 ```bash
-Copy
-Edit
-invoice-parser-ai/
+Talentica_assignment_OCR/
 │
 ├── app.py                # Main Flask app
 ├── templates/
-│   └── index.html        # UI page
+│   └── index.html        # Frontend HTML form
 ├── static/
-│   └── style.css         # CSS styles
+│   └── style.css         # Optional: CSS styling
 ├── uploads/              # Uploaded invoice images
-├── extracted_json/       # Parsed JSON outputs
-├── requirements.txt      # List of dependencies
-├── .env                  # API keys (excluded from Git)
+├── extracted_json/       # JSON outputs of parsed invoices
+├── requirements.txt      # Python dependencies
+├── .env                  # API keys (not to be shared)
 
 
 
