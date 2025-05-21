@@ -75,6 +75,16 @@ Now open your browser and visit:
 http://127.0.0.1:5000
 ```
 
+### ▶️ 6. Application working
+
+```
+- Choose a file and click on upload
+- Use the chatbot to ask any question
+- click on clear to clear the dataset
+
+
+```
+
 ### 🧾 Folder Structure
 ```bash
 Talentica_assignment_OCR/
