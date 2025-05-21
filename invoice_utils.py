@@ -2,7 +2,7 @@ import json
 import re
 from groq import Groq
 
-#client = Groq(api_key="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")
+#client = Groq(api_key="***********")
 
 import json
 import os
