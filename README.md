@@ -61,10 +61,21 @@ pip install -r requirements.txt
 ### 🔐 4. Setup API Keys
 ```bash
 GROQ_API_KEY=your_groq_api_key
+```
 
 ### ▶️ 5. Run the Flask Application
+```bash
+python app.py
+```
+
+Now open your browser and visit:
+
+```cpp
+http://127.0.0.1:5000
+```
+
 ### 🧾 Folder Structure
-bash
+```bash
 Copy
 Edit
 invoice-parser-ai/
