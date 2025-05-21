@@ -19,11 +19,7 @@ This project is a lightweight AI-powered invoice parser built with **Flask**, **
 
 ---
 
-## 🚀 Getting Started
 
-Follow these steps to set up and run the project locally.
-
----
 
 ### ✅ Prerequisites
 
@@ -34,8 +30,37 @@ Follow these steps to set up and run the project locally.
 - Internet connection
 
 ---
+## 🚀 Getting Started
 
+Follow these steps to set up and run the project locally.
+
+---
+### 
 ### 📥 1. Clone the Repository
+### 🧪 2. Create and Activate Virtual Environment
+### 📦 3. Install Dependencies
+### 🔐 4. Setup API Keys
+### ▶️ 5. Run the Flask Application
+### 🧾 Folder Structure
+bash
+Copy
+Edit
+invoice-parser-ai/
+│
+├── app.py                # Main Flask app
+├── templates/
+│   └── index.html        # UI page
+├── static/
+│   └── style.css         # CSS styles
+├── uploads/              # Uploaded invoice images
+├── extracted_json/       # Parsed JSON outputs
+├── requirements.txt      # List of dependencies
+├── .env                  # API keys (excluded from Git)
+
+
+
+
+
 
 ```bash
 git clone https://github.com/your-username/invoice-parser-ai.git
