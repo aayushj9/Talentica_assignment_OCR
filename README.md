@@ -101,4 +101,3 @@ Talentica_assignment_OCR/
 
 “What is the invoice number?”
 
-🛑 Notes
