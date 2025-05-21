@@ -5,7 +5,7 @@ A Python-based OCR-powered invoice parser that extracts structured data into JSO
 
 # 🧾 AI-Powered Invoice Parser with OCR, EasyOCR, and Groq Integration
 
-This project is a lightweight AI-powered invoice parser built with **Flask**, **Tesseract**, **EasyOCR**, **Mindee API**, and **Groq (LLaMA model)**. It allows you to upload an invoice image, extract structured JSON data using OCR, and interactively query that data using a GPT-style model via Groq.
+This project is a lightweight AI-powered invoice parser built with **Flask**, **EasyOCR**, **Mindee API**, and **Groq (LLaMA model)**. It allows you to upload an invoice image, extract structured JSON data using OCR, and interactively query that data using a GPT-style model via Groq.
 
 ---
 
