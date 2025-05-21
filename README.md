@@ -81,14 +81,12 @@ Talentica_assignment_OCR/
 ├── app.py                # Main Flask app
 ├── invoice_utils.py      # Supporting functions
 ├── templates/
-
-│   └── index.html        # Frontend HTML form
+│   └── invoice_chat.html        # Frontend HTML form
 ├── static/
 │   └── style.css         # Optional: CSS styling
-├── uploads/              # Uploaded invoice images
-├── extracted_json/       # JSON outputs of parsed invoices
+│   └── uploads/          # Consists the invoive images
+│   └── invoice_data.json # JSON outputs of parsed invoices
 ├── requirements.txt      # Python dependencies
-├── .env                  # API keys (not to be shared)
 
 
 ```
