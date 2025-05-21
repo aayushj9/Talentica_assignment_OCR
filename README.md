@@ -93,11 +93,9 @@ Talentica_assignment_OCR/
 
 
 ### 📝 Example Use Cases
-```"What is the total amount?”
-
+```
+"What is the total amount?”
 “When is the due date?”
-
 “Who is the vendor on this invoice?”
-
 “What is the invoice number?”
 
