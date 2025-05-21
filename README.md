@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ```
 ### 🔐 4. Setup API Keys
 ```bash
-GROQ_API_KEY=your_groq_api_key    # Please pass the GROQ keys here.
+GROQ_API_KEY=your_groq_api_key    # Please pass the GROQ keys in the file "invoice_utils.py" line number 5 
 ```
 
 ### ▶️ 5. Run the Flask Application
