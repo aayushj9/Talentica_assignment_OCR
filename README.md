@@ -43,6 +43,16 @@ git clone https://github.com/aayushj9/Talentica_assignment_OCR.git
 cd Talentica_assignment_OCR
 ```
 ### 🧪 2. Create and Activate Virtual Environment
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
 ```
 ### 📦 3. Install Dependencies
 ### 🔐 4. Setup API Keys
