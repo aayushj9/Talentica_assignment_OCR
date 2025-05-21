@@ -93,7 +93,7 @@ Talentica_assignment_OCR/
 
 
 ### 📝 Example Use Cases
-“What is the total amount?”
+```"What is the total amount?”
 
 “When is the due date?”
 
