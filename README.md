@@ -59,6 +59,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ### 🔐 4. Setup API Keys
+```bash
+GROQ_API_KEY=your_groq_api_key
+
 ### ▶️ 5. Run the Flask Application
 ### 🧾 Folder Structure
 bash
