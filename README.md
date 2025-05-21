@@ -28,10 +28,8 @@ Follow these steps to set up and run the project locally.
 ### ✅ Prerequisites
 
 - Python 3.8+
-- Git
-- Tesseract OCR installed and added to PATH
+- EasyOCR installed and added to PATH
 - API Keys for:
-  - [Mindee](https://platform.mindee.com/)
   - [Groq](https://console.groq.com/)
 - Internet connection
 
