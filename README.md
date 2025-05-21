@@ -12,7 +12,7 @@ This project is a lightweight AI-powered invoice parser built with **Flask**, **
 ## 📌 Features
 
 - Upload image-based invoices (supports PNG, JPG, JPEG, PDF, BMP, TIFF, etc.)
-- Extract structured invoice data using **Tesseract** and **EasyOCR**
+- Extract structured invoice data using **EasyOCR**
 - JSON output is saved for each uploaded invoice
 - Ask natural language questions on the invoice using **Groq's LLaMA model**
 - Simple and intuitive **Flask** web UI
