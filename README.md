@@ -60,7 +60,8 @@ pip install -r requirements.txt
 ```
 ### 🔐 4. Setup API Keys
 ```bash
-GROQ_API_KEY=your_groq_api_key    # Please pass the GROQ keys in the file "invoice_utils.py" line number 5 
+GROQ_API_KEY=your_groq_api_key    # Please pass the GROQ keys in key.env file.
+# if your key is passkey123  >>> pass it as  >>>GROQ_API_KEY= passkey123 
 ```
 
 ### ▶️ 5. Run the Flask Application
@@ -87,6 +88,7 @@ Talentica_assignment_OCR/
 │   └── uploads/          # Consists the invoive images
 │   └── invoice_data.json # JSON outputs of parsed invoices
 ├── requirements.txt      # Python dependencies
+├── key.env               # Grok pass keys
 
 
 ```
