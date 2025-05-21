@@ -79,7 +79,9 @@ http://127.0.0.1:5000
 Talentica_assignment_OCR/
 │
 ├── app.py                # Main Flask app
+├── invoice_utils.py      # Supporting functions
 ├── templates/
+
 │   └── index.html        # Frontend HTML form
 ├── static/
 │   └── style.css         # Optional: CSS styling
