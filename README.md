@@ -40,10 +40,10 @@ Follow these steps to set up and run the project locally.
 
 
 ``` git clone https://github.com/aayushj9/Talentica_assignment_OCR.git
-cd Talentica_assignment_OCR ```
-
----
+cd Talentica_assignment_OCR 
+```
 ### 🧪 2. Create and Activate Virtual Environment
+```
 ### 📦 3. Install Dependencies
 ### 🔐 4. Setup API Keys
 ### ▶️ 5. Run the Flask Application
