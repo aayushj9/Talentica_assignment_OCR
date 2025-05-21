@@ -41,11 +41,9 @@ Follow these steps to set up and run the project locally.
 
 ```bash
 git clone https://github.com/your-username/invoice-parser-ai.git
-cd invoice-parser-ai
-
----
+cd invoice-parser-ai'''
 ### 🧪 2. Create and Activate Virtual Environment
-bash
+'''bash
 Copy
 Edit
 # Create virtual environment
@@ -56,23 +54,23 @@ python -m venv venv
 venv\Scripts\activate
 
 # On macOS/Linux
-source venv/bin/activate
+source venv/bin/activate'''
 📦 3. Install Dependencies
-Install all required packages using the provided requirements.txt:
+'''Install all required packages using the provided requirements.txt:
 
 bash
 Copy
 Edit
-pip install -r requirements.txt
+pip install -r requirements.txt'''
 🔐 4. Setup API Keys
-Create a .env file in the project root with the following:
+'''Create a .env file in the project root with the following:
 
 ini
 Copy
 Edit
 GROQ_API_KEY=your_groq_api_key
 MINDEE_API_KEY=your_mindee_api_key
-Make sure this file is not pushed to GitHub.
+Make sure this file is not pushed to GitHub.'''
 
 🔡 5. Install Tesseract OCR
 Windows
