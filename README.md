@@ -2,6 +2,16 @@
 A Python-based OCR-powered invoice parser that extracts structured data into JSON format and enables intelligent querying using LLM model.
 
 
+✅ 1. README.md
+markdown
+Copy
+Edit
+# 🧾 AI-Powered Invoice Parser with OCR, EasyOCR, and Groq Integration
+
+This project is a lightweight AI-powered invoice parser built with **Flask**, **Tesseract**, **EasyOCR**, **Mindee API**, and **Groq (LLaMA model)**. It allows you to upload an invoice image, extract structured JSON data using OCR, and interactively query that data using a GPT-style model via Groq.
+
+---
+
 ## 📌 Features
 
 - Upload image-based invoices (supports PNG, JPG, JPEG, PDF, BMP, TIFF, etc.)
@@ -10,17 +20,107 @@ A Python-based OCR-powered invoice parser that extracts structured data into JSO
 - Ask natural language questions on the invoice using **Groq's LLaMA model**
 - Simple and intuitive **Flask** web UI
 
+---
+
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the project locally.
 
 ---
 
-
 ### ✅ Prerequisites
 
 - Python 3.8+
-- EasyOCR installed and added to PATH
+- Git
+- Tesseract OCR installed and added to PATH
 - API Keys for:
+  - [Mindee](https://platform.mindee.com/)
   - [Groq](https://console.groq.com/)
 - Internet connection
+
+---
+
+### 📥 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/invoice-parser-ai.git
+cd invoice-parser-ai
+🧪 2. Create and Activate Virtual Environment
+bash
+Copy
+Edit
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+📦 3. Install Dependencies
+Install all required packages using the provided requirements.txt:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+🔐 4. Setup API Keys
+Create a .env file in the project root with the following:
+
+ini
+Copy
+Edit
+GROQ_API_KEY=your_groq_api_key
+MINDEE_API_KEY=your_mindee_api_key
+Make sure this file is not pushed to GitHub.
+
+🔡 5. Install Tesseract OCR
+Windows
+Download from: https://github.com/UB-Mannheim/tesseract/wiki
+
+Add the installation path to your environment variables.
+
+macOS
+bash
+Copy
+Edit
+brew install tesseract
+Ubuntu/Debian
+bash
+Copy
+Edit
+sudo apt update
+sudo apt install tesseract-ocr
+▶️ 6. Run the Flask Application
+bash
+Copy
+Edit
+python app.py
+Visit: http://127.0.0.1:5000 in your browser.
+
+🧾 Folder Structure
+bash
+Copy
+Edit
+invoice-parser-ai/
+│
+├── app.py                # Main Flask app
+├── templates/
+│   └── index.html        # UI page
+├── static/
+│   └── style.css         # CSS styles
+├── uploads/              # Uploaded invoice images
+├── extracted_json/       # Parsed JSON outputs
+├── requirements.txt      # List of dependencies
+├── .env                  # API keys (excluded from Git)
+📝 Example Use Cases
+“What is the total amount?”
+
+“When is the due date?”
+
+“Who is the vendor on this invoice?”
+
+“What is the invoice number?”
+
+🛑 Notes
